@@ -1,0 +1,125 @@
+[
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/put-vyidayushhixsya-lyudej/",
+        "label":  "action",
+        "title": "Путь выдающихся людей",
+        "author": "Брендон Берчард",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/11/21211/1.00x-thumb.png",
+        "desc": "6 принципов незаурядных и высоко-эффективных людей",
+        "oldPrice": 785,
+        "newPrice": 589
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/dorozhnaya-karta/",
+        "title": "Дорожная карта",
+        "author": "Натан Гебхарт, Майк Марринер и Брайан МакАлистер",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/65/21965/1.00x-thumb.png",
+        "desc": "Как заглушить чужие голоса и&nbsp;прислушаться к&nbsp;себе?"
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/gde-oni-zhivut/",
+        "title": "Где они живут?",
+        "author": "Франсуаз де Гибер и Клеманс Полле",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/40/22040/1.00x-thumb.png",
+        "desc": "Более 40&nbsp;интересных фактов о&nbsp;жизни самых разных животных"
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/pitanie-v-sporte-na-vyinoslivost/",
+        "title": "Питание в спорте на выносливость",
+        "author": "Моник Райан",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/32/21032/1.00x-thumb.png",
+        "desc": "Как питаться любителям спорта на&nbsp;выносливость"
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/emil-i-margo-2/",
+        "title": "Эмиль и Марго. Чудовищные глупости",
+        "author": "Энн Дидье и Оливье Мэллер",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/78/21778/1.00x-thumb.png",
+        "desc": "Короткие рассказы в&nbsp;формате комиксов"
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/oxotnik-za-ideyami/",
+        "label":  "action",
+        "title": "Охотник за идеями",
+        "author": "Семен Кибало",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/01/21001/1.00x-thumb.png",
+        "desc": "21&nbsp;идея для стартапа в&nbsp;России ",
+        "oldPrice": 790,
+        "newPrice": 592
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/sozdavaya-bestseller/",
+        "title": "Создавая бестселлер",
+        "author": "Марта Олдерсон",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/04/21104/1.00x-thumb.png",
+        "desc": "Писательские стратегии и&nbsp;полезные инструменты для авторов"
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/byuro-labirintov/",
+        "title": "Бюро лабиринтов. Меч Ласидара",
+        "author": "Тревис Николс",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/75/21875/1.00x-thumb.png",
+        "desc": "Увлекательные сюжетные лабиринты "
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/sdelano-chtobyi-prilipat/",
+        "label":  "action",
+        "title": "Сделано, чтобы прилипать",
+        "author": "Чип Хиз  и Дэн Хиз",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/09/18809/1.00x-thumb.png",
+        "desc": "Как сделать вашу идею вирусной",
+        "oldPrice": 840,
+        "newPrice": 630
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/kak-delaetsya-kino/",
+        "title": "Как делается кино",
+        "author": "Сидни Люмет",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/75/21575/1.00x-thumb.png",
+        "desc": "О&nbsp;процессе создания фильма и&nbsp;обо всем, что остается за&nbsp;кадром"
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/tvoj-pervyij-million/",
+        "title": "Твой первый миллион",
+        "author": "Джеймс Маккена",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/80/21880/1.00x-thumb.png",
+        "desc": "Финансовая грамотность для подростка"
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/rabota-kak-vnutrennyaya-igra/",
+        "label":  "action",
+        "title": "Работа как внутренняя игра",
+        "author": "Тимоти Голви",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/15/19115/1.00x-thumb.png",
+        "desc": "Принципы «внутренней игры» Тимоти Голви",
+        "oldPrice": 735,
+        "newPrice": 551
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/dzen-kamera/",
+        "title": "Дзен-камера",
+        "author": "Дэвид Ульрих",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/38/21538/1.00x-thumb.png",
+        "desc": "6&nbsp;глубоких уроков, которые помогут развить способность к&nbsp;самовыражению"
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/vyiberi-sebya/",
+        "label":  "action",
+        "title": "Выбери себя!",
+        "author": "Джеймс Альтучер",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/27/21127/1.00x-thumb.png",
+        "desc": "Поможет вытянуть себя из&nbsp;трясины жизненных неурядиц",
+        "oldPrice": 735,
+        "newPrice": 551
+    },
+    {
+        "link": "https://www.mann-ivanov-ferber.ru/books/byit-introvertom/",
+        "label":  "action",
+        "title": "Быть интровертом",
+        "author": "Дебби Танг",
+        "src": "http://mann-ivanov-ferber.ru/assets/images/covers/10/21610/1.00x-thumb.png",
+        "desc": "Комикс о&nbsp;жизни интроверта в&nbsp;мире экстравертов",
+        "oldPrice": 685,
+        "newPrice": 514
+    }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/paperbook/tattoos/",
+    "label": "action",
+    "title": "45 татуировок менеджера",
+    "author": "Максим Батырев (Комбат)",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/62/7562/1.50x-thumb.png",
+    "desc": "Честная практика российского управленца",
+    "oldPrice": 795,
+    "newPrice": 596
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/kosmos-agile-krasniy/",
+    "label": "mif-only",
+    "title": "Космос. Agile-ежедневник для личного развития",
+    "author": "Катерина Ленгольд",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/38/20538/1.50x-thumb.png",
+    "desc": "9-недельный спринт для космических достижений",
+    "oldPrice": 990,
+    "newPrice": 742
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/nikogda-nibud/",
+    "label": "action",
+    "title": "Никогда-нибудь",
+    "author": "Елена Резанова",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/77/20177/1.50x-thumb.png",
+    "desc": "Решает проблему «хочу, но&nbsp;не&nbsp;знаю, с&nbsp;чего начать»",
+    "oldPrice": 795,
+    "newPrice": 596
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/magiya-utra/",
+    "label": "action",
+    "title": "Магия утра",
+    "author": "Хэл Элрод",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/53/16753/1.50x-thumb.png",
+    "desc": "Утренний ритуал, который поможет изменить вашу жизнь",
+    "oldPrice": 785,
+    "newPrice": 589
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/opredelyayushhie_10_let/",
+    "label": "action",
+    "title": "Важные годы",
+    "author": "Мэг Джей",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/95/11295/1.50x-thumb.png",
+    "desc": "Более 250 пятизвездочных отзывов на Amazon.com ",
+    "oldPrice": 785,
+    "newPrice": 589
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/psychologies/emotional-intelligence/",
+    "label": "action",
+    "title": "Эмоциональный интеллект",
+    "author": "Дэниел Гоулман",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/77/5577/1.50x-thumb.png",
+    "desc": "Научит распознавать эмоции и управлять ими",
+    "oldPrice": 820,
+    "newPrice": 615
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/gormony-schastya/",
+    "label": "action",
+    "title": "Гормоны счастья",
+    "author": "Лоретта Грациано Бройнинг",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/41/17041/1.50x-thumb.png",
+    "desc": "<nobr>45-дневная</nobr> практическая программа",
+    "oldPrice": 805,
+    "newPrice": 604
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/scrum/",
+    "label": "action",
+    "title": "Scrum",
+    "author": "Джефф Сазерленд",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/53/14953/1.50x-thumb.png",
+    "desc": "Входит в топ-10 Amazon.com в разделе «Тайм-менеджмент»",
+    "oldPrice": 875,
+    "newPrice": 656
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/rabota-tvoej-mechty/",
+    "label": "action",
+    "title": "Работа твоей мечты",
+    "author": "Барбара Шер",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/58/15458/1.50x-thumb.png",
+    "desc": "Как зарабатывать тем, что вам нравится",
+    "oldPrice": 805,
+    "newPrice": 604
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/children/2017/pasha_i_papa/",
+    "title": "Паша и папа",
+    "author": "Сюзанна Вебер и Сюзанна Гёлих",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/63/18763/1.50x-thumb.png",
+    "desc": "20&nbsp;добрых и&nbsp;веселых историй о&nbsp;мальчике Паше и&nbsp;его семье"
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/botanicheskie-portretyi/",
+    "title": "Ботанические портреты",
+    "author": "Билли Шоуэлл",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/69/18169/1.50x-thumb.png",
+    "desc": "Секреты создания ботанических рисунков"
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/avtor-nozhniczyi-bumaga-kak-byistro-pisat-vpechatlyayushhie-tekstyi/",
+    "title": "Автор, ножницы, бумага",
+    "author": "Николай Кононов",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/50/18350/1.50x-thumb.png",
+    "desc": "14&nbsp;уроков-ступенек, которые научат писать"
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/biznes-kopirajting/",
+    "title": "Бизнес-копирайтинг",
+    "author": "Денис Каплунов",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/19/14719/1.50x-thumb.png",
+    "desc": "Научит писать тексты, от которых невозможно оторваться"
+  },
+  {
+    "link": "https://www.mann-ivanov-ferber.ru/books/hronologiya/",
+    "title": "Хронология",
+    "author": "Петер Гюс",
+    "src": "http://mann-ivanov-ferber.ru/assets/images/covers/91/16791/1.50x-thumb.png",
+    "desc": "Лучшая книга года по версии The Sunday Times"
+  }
+]

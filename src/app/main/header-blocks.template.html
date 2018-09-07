@@ -1,0 +1,192 @@
+<header class="c-header ng-hide">
+    <div class="p-box">
+      <div class="p-main-grid" id="search-contener">
+        <div class="p-header-row">
+          <div class="p-header-cell" id="logo">
+            <div class="p-lvl-1">
+              <a href="https://www.mann-ivanov-ferber.ru/" class="p-logo">
+                <img src="assets/logo-horizontal.svg" alt="Издательство «МИФ»" title="Издательство «МИФ»">
+              </a>
+            </div>
+
+            <div class="p-lvl-2">
+              <a href="https://www.mann-ivanov-ferber.ru/" class="p-logo">
+                <img src="assets/logo-narrow.svg" style="height: 56px" alt="Издательство «МИФ»" title="Издательство «МИФ»">
+              </a>
+            </div>
+          </div>
+
+          <div class="p-header-cell" id="search">
+            <div class="p-lvl-1">
+              <label for="main-search" search-link="">
+                <div class="c-search-form-new">
+                  <div class="p-search-body">
+                    <form class="js-search-form">
+                      <div class="p-search-query">
+                        <div class="p-input-box">
+                          <input id="link-search-input" type="text" placeholder="Поиск книги по названию и автору" class="p-search-input">
+
+                          <button type="button" class="p-enter"></button>
+                        </div>
+
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <label for="main-search" class="p-lvl-2">
+              <div class="icon-search p-header-icon"></div>
+              <div class="m-right">
+                <span class="c-link ">Поиск</span>
+              </div>
+            </label>
+
+            <div class="p-header-helper" off-click="searchHide();search.suggests.hide()" off-click-filter="&#39;#search-contener&#39;">
+              <label for="main-search" class="p-main-label">
+                <div class="c-search-form-new" search-event-position="[[ position | default(&#39;top&#39;) ]]">
+                  <div class="p-search-body">
+                    <form action="https://www.mann-ivanov-ferber.ru/book/search" class="js-search-form" data-position="[[ position | default(&#39;top&#39;) ]]">
+                      <div class="p-search-query">
+                        <div class="p-input-box">
+                          <input type="text" placeholder="Поиск книги по названию и автору" value="" name="query" focus-me="searchShow" class="p-search-input" autocomplete="off" id="main-search">
+                          <button type="submit" class="p-enter"></button>
+                          <div class="p-close"></div>
+                        </div>
+                        <div class="p-helper-block">
+                      <span class="p-text-hint">
+                        Напишите название книги или имя
+                      </span>
+
+
+                        </div>
+
+                        <div class="p-search-suggests">
+                          
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <div class="p-header-cell" id="wish-list">
+            <div class="p-univ p-lvl-1">
+              <div class="p-info-block c-jump">
+                <div class="for-jamp">
+                  <a href="https://www.mann-ivanov-ferber.ru/my/#/wishlist" link-active-match="/my/#/wishlist" class="p-info-line">
+                    <span class="for-jamp" ng-pluralize="" count="$ctrl.wishlistBooks.length" when="{
+											'0': 'Нет книг',
+											'one': '{} книга',
+											'few': '{} книги',
+											'many': '{} книг',
+											'other': '{} книг'
+										}">{{$ctrl.wishlistBooks.length}}</span>
+                  </a>
+
+                  <div class="js-wish-list-receiver">
+                    в
+                    <span class="icon-stars-1 p-header-icon"></span>
+                    <span class="for-jamp"> вишлисте</span>
+                    <span ngIf="$ctrl.discount"><br>Личная скидка {{$ctrl.discount}}%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-tramp m-wish-list">
+                <div class="p-limiter ">
+                  <div class="p-abstract">
+                    <div class="p-wish-list p-divider-cell">
+                      <div class="p-wrapper">
+                        <a ng-repeat="book in $ctrl.wishlistBooks" class="p-book" href="{{book.link}}">
+                          <div class="p-book-wrapper gray-blink">
+                            <img class="p-book-image p-book-image--new lazy" src="assets/blank-cover.png" data-original="{{book.src}}">
+                          </div>
+                        </a>
+                      </div>
+                      <div class="p-anchor"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
+            </div>
+            <div class="p-lvl-2">
+              <div class="icon-stars-1 p-header-icon"></div>
+              <a class="js-wish-list-receiver" href="https://www.mann-ivanov-ferber.ru/my/#/wishlist">Вишлист</a>
+            </div>
+          </div>
+
+          <div class="p-header-cell" id="cart-list">
+            <div class="p-univ p-lvl-1">
+              <div class="p-info-block c-jump">
+                <div class="for-jamp">
+                  <a href="https://www.mann-ivanov-ferber.ru/my/#/cart" class="p-info-line">
+
+                    <span class="for-jamp" ng-pluralize="" count="$ctrl.cartBooks.length" when="{
+											'0': 'Нет книг',
+											'one': '{} книга',
+											'few': '{} книги',
+											'many': '{} книг',
+											'other': '{} книг'
+										}">{{$ctrl.cartBooks.length}}</span>
+
+                  </a>
+
+                  <span class="js-cart-list-receiver">
+                    в
+                    <span class="for-jamp"> корзине</span>
+                    <span ng-if="$ctrl.sum">
+                      <br>на сумму <span>{{$ctrl.sum}}</span> <span class="icon-rouble"></span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="p-tramp m-wish-list">
+                <div class="p-limiter ">
+                  <div class="p-abstract">
+                    <div class="p-wish-list p-divider-cell">
+                      <div class="p-wrapper">
+                        <a ng-repeat="cbook in $ctrl.cartBooks" class="p-book" href="{{cbook.link}}">
+                          <div class="p-book-wrapper gray-blink">
+                            <img class="p-book-image p-book-image--new lazy" src="assets/blank-cover.png" data-original="{{cbook.src}}">
+                          </div>
+                        </a>
+                      </div>
+                      <div class="p-anchor"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clear"></div>
+            </div>
+
+            <div class="p-lvl-2">
+              <div class="p-header-icon m-cart">
+                <span class="p-cart-count">{{$ctrl.cartBooks.length}}</span>
+              </div>
+              <a class="js-cart-list-receiver" href="https://www.mann-ivanov-ferber.ru/my/#/cart">Корзина</a>
+            </div>
+          </div>
+
+          <div class="p-header-cell" id="delivery">
+            <div class="p-univ p-lvl-1">
+              <div class="c-header-city">
+                <div>
+                  Доставка в&nbsp;город
+                  <a href="#">{{$ctrl.city}}</a>
+                  <br>
+                  <span>
+                    от&nbsp;{{$ctrl.daysFrom}}&nbsp;до&nbsp;{{$ctrl.daysTo}}&nbsp;<span>дней</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>

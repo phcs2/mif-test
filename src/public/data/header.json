@@ -1,0 +1,41 @@
+{
+  "wishlist": {
+    "books": [
+      {
+        "src": "assets/0.10x-thumb.png",
+        "link": "https://www.mann-ivanov-ferber.ru/books/dorozhnaya-karta/"
+      },
+      {
+        "src": "assets/0.10x-thumb(1).png",
+        "link": "https://www.mann-ivanov-ferber.ru/books/put-vyidayushhixsya-lyudej/"
+      },
+      {
+        "src": "assets/0.10x-thumb(2).png",
+        "link": "https://www.mann-ivanov-ferber.ru/books/mif/thewillpowerinstinct/"
+      }
+    ],
+    "discount": 5
+  },
+  "cart": {
+    "books": [
+      {
+        "src": "assets/0.10x-thumb.png",
+        "link": "https://www.mann-ivanov-ferber.ru/books/dorozhnaya-karta/"
+      },
+      {
+        "src": "assets/0.10x-thumb(1).png",
+        "link": "https://www.mann-ivanov-ferber.ru/books/put-vyidayushhixsya-lyudej/"
+      },
+      {
+        "src": "assets/0.10x-thumb(2).png",
+        "link": "https://www.mann-ivanov-ferber.ru/books/mif/thewillpowerinstinct/"
+      }
+    ],
+    "sum": 2227
+  },
+  "delivery": {
+    "city": "Брянск",
+    "daysFrom": 5,
+    "daysTo": 7 
+  }
+}

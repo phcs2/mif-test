@@ -1,0 +1,40 @@
+<div class="c-book-of-week ng-hide">
+  <div class="c-column m-image">
+    <div lego-cover="" class="lego-cover size-1_00x no-hover">
+      <a href="{{$ctrl.wbook.link}}" class="image-block" target="_blank">
+        <div ngIf="$ctrl.wbook.label === 'new-book-of-the-week'" class="label week-new-book">Новинка недели</div>	
+        <div class="image-limit gray-blink">
+          <div class="loading-title">
+              <p>{{$ctrl.wbook.title}}</p>
+              <p>{{$ctrl.wbook.author}}</p>
+            </div>
+          <img class="cover-image lazy" src="assets/blank-cover.png" data-original="{{$ctrl.wbook.src}}" alt="{{$ctrl.wbook.title}}. {{$ctrl.wbook.author}}" style="display: inline;">
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="c-column m-stickers m-stickers_cover_new">
+    <h1>{{$ctrl.wbook.title}}</h1>
+    <p>{{$ctrl.wbook.text}}</p>
+
+    <div class="l-book-stickers">
+      <div class="b-stickers">
+        <div class="no-slider">
+          <span ng-repeat="sticker in $ctrl.wbook.stickers" class="b-sticker sticker-{{$ctrl.wbook.stickerColors[$index]}} first">
+            <span class="wrap">{{sticker}}</span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <a href="{{$ctrl.wbook.link}}" class="p-read m-desktop">Почитать отзывы, рецензии и&nbsp;купить книгу</a>
+  </div>
+
+  <div class="c-column m-quote">
+    <h2>Цитата из книги</h2>
+    <h3 ng-bind-html="$ctrl.wbook.quoteTitle"></h3>
+    <p ng-bind-html="$ctrl.wbook.quoteText"></p>
+  </div>
+  <a href="{{$ctrl.wbook.link}}" class="p-read m-mobile">Почитать отзывы, рецензии и&nbsp;купить книгу</a>
+</div>

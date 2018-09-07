@@ -1,0 +1,49 @@
+<div class="c-index">
+    <section class="c-book-list {{$ctrl.class}} ng-hide">
+      <h2 class="c-default"><a href="https://www.mann-ivanov-ferber.ru/books/bestsellers/">{{$ctrl.name}}</a></h2>
+      <slider class="c-slider scrollyeah_active scrollyeah_shadow scrollyeah_shadow_no-left" lazyload-cover="">
+        <div class="scrollyeah-replace scrollyeah_in_work" data-shadows="true" data-centeriffit="true">
+          <div class="scrollyeah__wrap" style="width: 999999px;">
+            <div class="scrollyeah__shaft">
+              <div ng-repeat="book in $ctrl.books" lego-cover="" class="lego-cover size-{{$ctrl.coversSize}}x  p-item ">
+                <a href="{{book.link}}" class="image-block" target="_blank">
+                  <div ng-if="book.label === 'action'" class="label action">Акция</div>
+                  <div ng-if="book.label === 'mif-only'" class="label mif-only">Только у нас</div>
+                  <div class="image-limit gray-blink">
+                    <div class="loading-title">
+                      <p>{{book.title}}</p>
+                      <p>{{book.author}}</p>
+                    </div>
+                    <img class="cover-image lazy" src="assets/blank-cover.png" data-original="{{book.src}}" alt="{{book.title}}. {{book.author}}" style="display: inline;">
+                  </div>
+                </a>
+                <div class="book-description-wrapper">
+                  <p ng-bind-html="book.desc"></p>
+                  <div ng-if="book.oldPrice" class="price">
+                    <span>
+                      <span class="old-price">
+                        <span>{{book.oldPrice}}</span> <span class="icon-rouble"></span>
+                      </span>&nbsp;
+                    </span>
+                    <span ng-if="book.newPrice" class="new-price">
+                      <span>{{book.newPrice}}</span> <span class="icon-rouble"></span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+                          
+              <div class="p-item m-empty">
+                <a href="https://www.mann-ivanov-ferber.ru/books/bestsellers/" class="c-book" target="_blank"><span>Посмотреть<br>все бестселлеры</span>&nbsp;→</a>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+        <i class="scrollyeah__shadow scrollyeah__shadow_prev"></i>
+        <i class="scrollyeah__shadow scrollyeah__shadow_next"></i>
+      </slider>
+    </section>
+  </div>
+  
+  
+  
